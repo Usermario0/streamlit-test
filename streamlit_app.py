@@ -1,4 +1,5 @@
 import yfinance as yf
+from binance import Client, ThreadedWebsocketManager, ThreadedDepthCacheManager
 import streamlit as st
 from PIL import Image
 from urllib.request import urlopen
